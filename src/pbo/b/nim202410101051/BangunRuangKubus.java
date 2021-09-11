@@ -4,17 +4,17 @@ public class BangunRuangKubus {
     double sisi;
 
     BangunRuangKubus(double sisi){
+
         this.sisi = sisi;
     }
 
-    void LuasPermukaan(){
-        double luasPermukaan = 6 * sisi * sisi;
-        System.out.printf("%nLuas permukaan kubus = %.2f satuan%n", luasPermukaan);
+    double luasPermukaan(){
+        return 6 * sisi * sisi;
+
     }
 
-    void Volume() {
-        double volume = sisi * sisi * sisi;
-        System.out.printf("Volume kubus = %.2f satuan", volume);
+    double volume() {
+        return sisi * sisi * sisi;
     }
 
 }
