@@ -2,7 +2,7 @@ package pbo.b.nim202410101051;
 
 
 public class main {
-    public void main(){
+    public static void main(String[] args){
         Mahasiswa siswa = new Mahasiswa("Ardi Yuliantoro", "202410101051", "Sistem Informasi");
         System.out.println(siswa.perkenalan());
 
