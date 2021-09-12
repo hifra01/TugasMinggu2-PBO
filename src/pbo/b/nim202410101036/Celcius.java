@@ -1,20 +1,17 @@
 package pbo.b.nim202410101036;
 
 public class Celcius {
-    public double c, f, k, r;
+    public double c;
 
-    public void toFahrenheit() {
-        f = c * 1.8 + 32;
-        System.out.println("Fahrenheit : " + f);
+    double toFahrenheit(){
+        return c * 1.8 + 32;
         }
 
-    public void toKelvin(){
-        k = c+273.15;
-        System.out.println("Kelvin     : " + k);
+    double toKelvin(){
+        return c+273.15;
         }
 
-    public void toReamur(){
-        r = c*0.8;
-        System.out.println("Reaumur    : " + r);
+    double toReamur(){
+        return c*0.8;
         }
 }

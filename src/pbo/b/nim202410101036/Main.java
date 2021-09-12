@@ -14,9 +14,10 @@ public class Main {
         Celcius convertion = new Celcius();
         System.out.print("\nMasukkan Suhu (Celcius) : ");
         convertion.c = input.nextDouble();
-        convertion.toFahrenheit();
-        convertion.toKelvin();
-        convertion.toReamur();
+        System.out.println("Fahrenheit : " + convertion.toFahrenheit());
+        System.out.println("Kelvin     : " + convertion.toKelvin());
+        System.out.println("Reaumur    : " + convertion.toReamur());
+
 
         System.out.println("\n===========================================================================================");
         BangunRuang blk = new BangunRuang();
@@ -27,8 +28,8 @@ public class Main {
         System.out.print("Masukkan Tinggi  (cm) : ");
         blk.tinggi = input.nextInt();
         System.out.println("\n===========================================================================================\n");
-        blk.luasPermukaan();
-        blk.Volume();
+        System.out.println("Luas Permukaan Balok (cm2) : " + blk.luasPermukaan());
+        System.out.println("Volume Balok         (cm3) : " + blk.Volume());
         System.out.println("\n===========================================================================================");
 
 
