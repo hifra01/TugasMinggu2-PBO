@@ -22,13 +22,4 @@ public class CelciusFarenheit {
     }
 }
 
-class mainCelcius{
-    public static void main(String[]args){
-        CelciusFarenheit Celcius1 = new CelciusFarenheit(78);
-
-        System.out.println("Derajat Farenheit adalah : " + Celcius1.ToFarenheit() +" F");
-        System.out.println("Derajat Kelvin adalah : " + Celcius1.ToKelvin() +" K");
-        System.out.println("Derajat Reamur adalah : " + Celcius1.ToReamur() + "R");
-
-    }
 }
