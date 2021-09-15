@@ -20,12 +20,3 @@ public class ClassMahasiswa {
         return ProgramStudi;
     }
 }
-class mainClassMahasiswa {
-    public static void main(String[] args) {
-        ClassMahasiswa Mahasiswa1 = new ClassMahasiswa("Revina Hani Rahmadilla", "202410101107", "Sistem Informasi");
-
-        System.out.println(Mahasiswa1.Nama);
-        System.out.println(Mahasiswa1.NIM);
-        System.out.println(Mahasiswa1.ProgramStudi);
-    }
-}
