@@ -5,29 +5,27 @@ public class ClassMahasiswa {
     String NIM;
     String ProgramStudi;
 
-    void Mahasiswa(String NamaBaru, String NIMBaru, String ProgramStudibaru){
-        Nama = NamaBaru;
-        NIM = NIMBaru;
-        ProgramStudi = ProgramStudibaru;
+    public ClassMahasiswa(String Nama, String NIM, String ProgramStudi) {
+        this.Nama = Nama;
+        this.NIM = NIM;
+        this.ProgramStudi = ProgramStudi;
     }
-    String outNama(){
+    String Nama(){
         return Nama;
     }
-    String outNIM(){
+    String NIM(){
         return NIM;
     }
-    String outProdi(){
-        return Prodi;
+    String ProgramStudi(){
+        return ProgramStudi;
     }
 }
+class mainClassMahasiswa {
+    public static void main(String[] args) {
+        ClassMahasiswa Mahasiswa1 = new ClassMahasiswa("Revina Hani Rahmadilla", "202410101107", "Sistem Informasi");
 
-class mainMahasiswa{
-    public static void mhscode(){
-        Mahasiswa newNama = new Mahasiswa();
-        newNama.datamhs("Widyarista Nariswari","202410101032", "Sistem Informasi");
-        System.out.println("Halo, Nama saya " +newNama.outNama() + ", NIM " +newNama.outNIM() + ", dari Prodi " +newNama.outProdi() +".");
-    }
-    public static void main(String[]args){
-        mhscode();
+        System.out.println(Mahasiswa1.Nama);
+        System.out.println(Mahasiswa1.NIM);
+        System.out.println(Mahasiswa1.ProgramStudi);
     }
 }
