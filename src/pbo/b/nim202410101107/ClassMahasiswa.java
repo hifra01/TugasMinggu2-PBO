@@ -1,4 +1,4 @@
 package pbo.b.nim202410101107;
 
-public class BangunRuang {
+public class ClassMahasiswa {
 }
