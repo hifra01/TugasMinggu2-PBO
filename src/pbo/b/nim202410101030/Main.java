@@ -35,9 +35,4 @@ public class Main {
         hitung.LuasPermukaan();
         hitung.Volume();
     }
-
-
-
-
-
 }
