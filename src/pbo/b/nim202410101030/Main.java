@@ -10,12 +10,12 @@ public class Main {
         String Nama = aku.Nama;
         String Prodi = aku.Prodi;
         String NIM = aku.NIM;
-
+        System.out.println("---Perkenalan Mahasiswa---");
         aku.perkenalan();
-    }
 
-//    Main Celcius
-    public  static void main(String[] args){
+//        Celcius
+        System.out.println("");
+        System.out.println("---Konversi Suhu---");
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan suhu dalam Celcius: ");
         Double Suhu = sc.nextDouble();
@@ -25,11 +25,8 @@ public class Main {
         suhunya.ToKelvin();
         suhunya.ToReamur();
 
-    }
-
-//        Main BangunRuang
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+//        Bangun Ruang
+        System.out.println("");
         System.out.println("---Perhitungan Bangun Ruang Bola---");
         System.out.print("Masukkan Jari-jari Bola(cm) : ");
         Double jarijari = sc.nextDouble();
@@ -38,5 +35,9 @@ public class Main {
         hitung.LuasPermukaan();
         hitung.Volume();
     }
+
+
+
+
 
 }
